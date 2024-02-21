@@ -1,3 +1,12 @@
+// Run using java AmusementPark < input.txt
+// 13 50 true true
+// 8 45 false false
+// 16 60 true false
+// 10 55 true false
+// 14 47 true true
+// 9 42 false false
+// 11 48 false true
+
 import java.util.Scanner;
 
 public class AmusementPark {
