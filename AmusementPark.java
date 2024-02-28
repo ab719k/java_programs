@@ -1,4 +1,7 @@
-// Run using java AmusementPark < input.txt
+// This program check if the attending guess can enter the amusement park based on heigh and age
+// Second part of the program also tell if the person can attend the water park based on if the person can swim or not.
+// input_amusement_park.txt file should contain four fields 'ageAsInt  heightAsInt canSwimAsBoolean hasLifeJacketAsBoolean'
+// Run using java AmusementPark < input_amusement_park.txt
 // 13 50 true true
 // 8 45 false false
 // 16 60 true false
