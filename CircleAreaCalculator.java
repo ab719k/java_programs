@@ -1,3 +1,5 @@
+/* Write a java program that calculate the area of circle */
+
 import java.util.Scanner;
 
 public class CircleAreaCalculator {
@@ -16,10 +18,11 @@ public class CircleAreaCalculator {
         System.out.print("Enter the radius of the circle: ");
         radius = scanner.nextDouble();
 
-        scanner.close();
-
-        area = calculateArea(radius);
+        // Implement a function to calculateArea over here
 
         System.out.printf("The area of the circle with radius %.2f is %.2f%n", radius, area);
+
+        scanner.close();
+
     }        
 }
