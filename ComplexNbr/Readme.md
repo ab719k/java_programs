@@ -38,4 +38,10 @@ Test your program with various inputs to verify the correctness of the implement
 Explore how operator overloading works in Java by implementing scalar operations.
 ```
 
-List of Operations on Complex Numbers:
+## List of Operations on Complex Numbers:
+1. Addition: (a+bi) + (c+di) = (a+c) + (b+d)i
+2. Subtraction: (a+bi) - (c+di) = (a-c) + (b-d)i
+3. Multiplication: (a+bi) * (c+di) = (ac - bd) + (ad + bc)i
+4. Division: (a+bi) / (c+di) = ((ac + bd) / (c^2 + d^2)) + ((bc - ad) / (c^2 + d^2))i
+5. Absolute Value (Magnitude): |a+bi| = sqrt(a^2 + b^2)
+6. Conjugate: The conjugate of a complex number a+bi is a-bi.
