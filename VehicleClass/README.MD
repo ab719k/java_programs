@@ -3,7 +3,7 @@ Write a Java program to create a vehicle class hierarchy. The base class should 
 
 
 
-'''
+```
 // Vehicle.java
 // Parent class Vehicle
 
@@ -14,12 +14,11 @@ public abstract class Vehicle {
     private String fuelType;
     private double fuelEfficiency;
 
+   public Vehicle(String make, String model) {
+
+   } 
+
     public Vehicle(String make, String model, int year, String fuelType, double fuelEfficiency) {
-        this.make = make;
-        this.model = model;
-        this.year = year;
-        this.fuelType = fuelType;
-        this.fuelEfficiency = fuelEfficiency;
     }
 	
     public String getMake() {
@@ -48,4 +47,4 @@ public abstract class Vehicle {
 
     public abstract double getMaxSpeed();
 }
-'''
+```
